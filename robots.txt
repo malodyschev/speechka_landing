@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://speechka.ru/sitemap.xml
+
+# Disallow sensitive files
+Disallow: /.htaccess
+Disallow: /.htpasswd
+Disallow: /README.md
+Disallow: /script.js
+Disallow: /styles.css
+
+# Allow important files
+Allow: /index.html
+Allow: /favicon.ico
+Allow: /images/
+
+# Crawl delay (optional)
+Crawl-delay: 1

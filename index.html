@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speechka — Логопед-бот в Telegram для детей 4-12 лет</title>
+    <meta name="description"
+        content="Исправить картавость дома за пару минут. Первичный анализ речи онлайн с упражнениями от логопедов. Ставим звук Р в игровой форме.">
+    <meta name="keywords"
+        content="логопед онлайн, исправить картавость дома, ставим звук Р, диагностика речи онлайн, упражнения для шепелявых детей">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Speechka — Логопед-бот в Telegram">
+    <meta property="og:description"
+        content="Чистая речь ребёнка — за пару минут в Telegram. Первичный анализ речи и упражнения от логопедов.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://speechka.ru">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Support by FSI -->
+    <section class="fsi-support">
+        <div class="container fsi-support-content">
+            <a href="https://fasie.ru/" target="_blank" class="fsi-logo-link">
+                <img src="photo/ФСИ.png" alt="Фонд содействия инновациям" class="fsi-logo">
+            </a>
+            <span class="fsi-support-text">Проект реализован при поддержке Фонда содействия инновациям</span>
+        </div>
+    </section>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-microphone-alt"></i>
+                    <span>Speechka</span>
+                </div>
+                <nav class="nav">
+                    <a href="#how-it-works">Как работает</a>
+                    <a href="#benefits">Преимущества</a>
+                    <a href="#pricing">Тарифы</a>
+                    <a href="#faq">FAQ</a>
+                </nav>
+                <a href="https://t.me/Speeechka_bot" class="cta-button header-cta" target="_blank">
+                    <i class="fab fa-telegram"></i>
+                    Попробовать бесплатно
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Чистая речь ребёнка — за пару месяцев в Telegram
+                    </h1>
+                    <p class="hero-subtitle">
+                        Запишите 10 предложений — и получите личный план упражнений от умного логопеда
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="https://t.me/Speeechka_bot" class="cta-button hero-cta" target="_blank">
+                            <i class="fab fa-telegram"></i>
+                            Попробовать бесплатно в Telegram
+                        </a>
+                        <div class="hero-stats">
+                            <div class="stat">
+                                <span class="stat-number">2 мин</span>
+                                <span class="stat-label">на анализ речи</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">1000+</span>
+                                <span class="stat-label">детей уже говорят чисто</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <div class="chat-header">
+                                <i class="fab fa-telegram"></i>
+                                <span>Speechka Бот</span>
+                            </div>
+                            <div class="chat-messages">
+                                <div class="message bot-message">
+                                    Привет! Я помогу исправить речь. Нажми "Анализ речи" 👇
+                                </div>
+                                <div class="message bot-message typing">
+                                    <span class="typing-dots">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </span>
+                                </div>
+                                <div class="message bot-message">
+                                    Запишите слово "Лиса" 🎤
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">Как это работает</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <h3>Запись голоса</h3>
+                    <p>Нажмите "Анализ речи" в боте и запишите 10 предложений — это займёт 5 минут</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Анализ речи</h3>
+                    <p>Нейросеть анализирует записи ребёнка и сравнивает с эталоном</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-clipboard-list"></i>
+                    </div>
+                    <h3>Получите результат</h3>
+                    <p>Получаете отчёт и упражнения + контакт логопеда, если нужна помощь</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits -->
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <h2 class="section-title">Почему выбирают нас</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Дома и без стресса</h3>
+                    <p>Не нужно везти ребёнка в центр. Всё в комфортной домашней обстановке</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Игровой формат</h3>
+                    <p>Бот обращается к ребёнку дружелюбно, как к герою квеста</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-piggy-bank"></i>
+                    </div>
+                    <h3>Экономия бюджета</h3>
+                    <p>Первичная проверка бесплатно, дальше по желанию</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Отслеживание прогресса</h3>
+                    <p>Каждая "Сессия" сохраняется, видно улучшение</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3>Проверено логопедами</h3>
+                    <p>Рекомендации подтверждены специалистами с опытом</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Report Preview -->
+    <section class="report-preview">
+        <div class="container">
+            <div class="report-content">
+                <div class="report-text">
+                    <h2>Что внутри отчёта</h2>
+                    <p>Полный анализ речи с персональными рекомендациями</p>
+                    <ul class="report-features">
+                        <li><i class="fas fa-check"></i> Первичный анализ речи (картавость, шепелявость)</li>
+                        <li><i class="fas fa-check"></i> Ссылки на видео-упражнения</li>
+                        <li><i class="fas fa-check"></i> План занятий на неделю</li>
+                        <li><i class="fas fa-check"></i> Контакт логопеда для консультации</li>
+                    </ul>
+                </div>
+                <div class="report-card">
+                    <div class="report-header">
+                        <h3>Отчёт по анализу речи</h3>
+                        <span class="date">15.12.2024</span>
+                    </div>
+                    <div class="report-body">
+                        <div class="report-item">
+                            <span class="label">Анализ:</span>
+                            <span class="value">Картавость (звук Р)</span>
+                        </div>
+                        <div class="report-item">
+                            <span class="label">Уровень:</span>
+                            <span class="value">Лёгкий</span>
+                        </div>
+                        <div class="report-item">
+                            <span class="label">Прогноз:</span>
+                            <span class="value">2-3 недели занятий</span>
+                        </div>
+                    </div>
+                    <div class="report-footer">
+                        <button class="btn-secondary">Скачать PDF</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section class="team">
+        <div class="container">
+            <h2 class="section-title">Наша команда</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="photo/Мария Охотникова.jpg" alt="Мария Охотникова">
+                    </div>
+                    <div class="member-info">
+                        <h3>Мария Охотникова</h3>
+                        <p>Общее руководство процессами, выстраивание бизнес-логики, ведение системного анализа и
+                            стратегическое продвижение продукта.</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="photo/Михаил Малодушев.jpg" alt="Михаил Малодушев">
+                    </div>
+                    <div class="member-info">
+                        <h3>Михаил Малодушев</h3>
+                        <p>Проектирование архитектуры и программная реализация платформы, связывающая все сервисы
+                            воедино.</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="photo/Герман Кавкаев.jpg" alt="Герман Кавкаев">
+                    </div>
+                    <div class="member-info">
+                        <h3>Герман Кавкаев</h3>
+                        <p>Презентация продукта на выставках, ведение PR-кампании, построение партнёрских связей.</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="photo/Владислав Букин.jpg" alt="Владислав Букин">
+                    </div>
+                    <div class="member-info">
+                        <h3>Владислав Букин</h3>
+                        <p>Разработка и обучение модели искусственного интеллекта, обеспечивающая точную автоматическую
+                            оценку произношения пользователей.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Выберите план</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Базовый</h3>
+                        <div class="price">
+                            <span class="amount">0</span>
+                            <span class="currency">₽</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Один анализ речи</li>
+                            <li><i class="fas fa-check"></i> Подробный отчёт</li>
+                            <li><i class="fas fa-check"></i> Базовые упражнения</li>
+                            <li><i class="fas fa-check"></i> Рекомендации логопеда</li>
+                        </ul>
+                    </div>
+                    <a href="https://t.me/Speeechka_bot" class="cta-button pricing-cta" target="_blank">
+                        Начать бесплатно
+                    </a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Популярный</div>
+                    <div class="pricing-header">
+                        <h3>Продвинутый</h3>
+                        <div class="price">
+                            <span class="amount">299</span>
+                            <span class="currency">₽</span>
+                            <span class="period">/ мес</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Безлимитные проверки</li>
+                            <li><i class="fas fa-check"></i> Расширенные упражнения</li>
+                            <li><i class="fas fa-check"></i> Чат с логопедом</li>
+                            <li><i class="fas fa-check"></i> Отслеживание прогресса</li>
+                            <li><i class="fas fa-check"></i> Персональный план</li>
+                        </ul>
+                    </div>
+                    <a href="https://t.me/Speeechka_bot" class="cta-button pricing-cta featured" target="_blank">
+                        Попробовать бесплатно
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2 class="section-title">Часто задаваемые вопросы</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>С какого возраста можно проходить анализ речи?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Анализ речи подходит для детей от 4 до 12 лет. В этом возрасте уже можно точно определить
+                            проблемы с речью и начать их исправление.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Безопасно ли хранить голосовые?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Да, все голосовые сообщения шифруются и хранятся в соответствии с GDPR. Мы не передаём данные
+                            третьим лицам.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Можно ли использовать со смартфона ребёнка?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Конечно! Бот работает в Telegram, который есть на любом смартфоне. Интерфейс адаптирован для
+                            детей.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Что делать, если бот определил «картавость»?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Не волнуйтесь! Вы получите персональный план упражнений. Если нужна помощь, можете связаться
+                            с логопедом через бота.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-microphone-alt"></i>
+                        <span>Speechka</span>
+                    </div>
+                    <p>Логопед-бот в Telegram для детей 4-12 лет</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-telegram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Продукт</h4>
+                    <ul>
+                        <li><a href="#how-it-works">Как работает</a></li>
+                        <li><a href="#benefits">Преимущества</a></li>
+                        <li><a href="#pricing">Тарифы</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Поддержка</h4>
+                    <ul>
+                        <li><a href="mailto:support@speechka.ru">support@speechka.ru</a></li>
+                        <li><a href="https://t.me/Speeechka_bot">Telegram поддержка</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Документы</h4>
+                    <ul>
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                        <li><a href="#">Пользовательское соглашение</a></li>
+                        <li><a href="#">Оферта</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Speechka. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sticky CTA -->
+    <div class="sticky-cta">
+        <a href="https://t.me/Speeechka_bot" class="cta-button" target="_blank">
+            <i class="fab fa-telegram"></i>
+            Попробовать бесплатно
+        </a>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>

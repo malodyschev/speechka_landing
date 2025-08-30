@@ -1,0 +1,43 @@
+{
+    "name": "speechka-landing",
+    "version": "1.0.0",
+    "description": "Лендинг для логопед-бота 'Speechka' в Telegram",
+    "main": "index.html",
+    "scripts": {
+        "start": "python -m http.server 8000",
+        "dev": "live-server --port=8000 --open=/",
+        "build": "echo 'Static site - no build required'",
+        "deploy": "echo 'Deploy to your hosting provider'",
+        "test": "echo 'No tests specified'",
+        "lint": "echo 'No linting configured'"
+    },
+    "keywords": [
+        "логопед",
+        "telegram-bot",
+        "speech-therapy",
+        "landing-page",
+        "children",
+        "speech-correction"
+    ],
+    "author": "Speechka Team",
+    "license": "UNLICENSED",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/your-username/speechka-landing.git"
+    },
+    "bugs": {
+        "url": "https://github.com/your-username/speechka-landing/issues"
+    },
+    "homepage": "https://speechka.ru",
+    "devDependencies": {
+        "live-server": "^1.2.2"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead"
+    ]
+}
