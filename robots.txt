@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://speechka.ru/sitemap.xml
+Sitemap: https://speechka-platform.ru/sitemap.xml
 
 # Disallow sensitive files
 Disallow: /.htaccess

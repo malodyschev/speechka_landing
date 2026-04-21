@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function () {
         setTimeout(() => {
             typingMessage.style.display = 'none';
             const newMessage = document.createElement('div');
-            newMessage.className = 'message bot-message';
+            newMessage.className = 'message platform-message';
             newMessage.textContent = 'Запишите предложение "Я люблю читать книги" 🎤';
             typingMessage.parentNode.appendChild(newMessage);
         }, 2000);

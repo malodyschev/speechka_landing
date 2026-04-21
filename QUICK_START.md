@@ -2,12 +2,11 @@
 
 ## 📋 Что нужно сделать перед запуском:
 
-### 1. Замените ссылки на бота
-В файле `index.html` найдите и замените все вхождения `@YourBot` на реальный username вашего Telegram-бота:
+### 1. Проверьте ссылки на онлайн-платформу
+В файле `index.html` кнопки должны вести на онлайн-платформу:
 
 ```html
-<!-- Замените на ваш реальный username -->
-<a href="https://t.me/Speeechka_bot" class="cta-button" target="_blank">
+<a href="https://speechka-platform.ru/" class="cta-button" target="_blank">
 ```
 
 ### 2. Обновите домен
@@ -38,7 +37,7 @@ npx live-server --port=8000
 
 ## ✅ Проверка готовности:
 
-- [ ] Ссылки на бота обновлены
+- [ ] Ссылки на онлайн-платформу обновлены
 - [ ] Домен обновлен в sitemap.xml
 - [ ] Лендинг открывается без ошибок
 - [ ] Все кнопки ведут на правильные ссылки
@@ -62,7 +61,7 @@ npx live-server --port=8000
 
 ## 📞 Поддержка:
 - Email: support@speechka.ru
-- Telegram: @Speeechka_bot
+- Онлайн-платформа: https://speechka-platform.ru/
 
 ---
 

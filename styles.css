@@ -248,7 +248,7 @@ h6 {
     max-width: 80%;
 }
 
-.bot-message {
+.platform-message {
     background: var(--primary-blue);
     padding: 12px 16px;
     border-radius: 18px 18px 18px 4px;

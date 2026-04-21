@@ -1,7 +1,7 @@
 {
     "name": "speechka-landing",
     "version": "1.0.0",
-    "description": "Лендинг для логопед-бота 'Speechka' в Telegram",
+    "description": "Лендинг для онлайн-платформы 'Speechka'",
     "main": "index.html",
     "scripts": {
         "start": "python -m http.server 8000",
@@ -13,7 +13,7 @@
     },
     "keywords": [
         "логопед",
-        "telegram-bot",
+        "online-platform",
         "speech-therapy",
         "landing-page",
         "children",
@@ -28,7 +28,7 @@
     "bugs": {
         "url": "https://github.com/your-username/speechka-landing/issues"
     },
-    "homepage": "https://speechka.ru",
+    "homepage": "https://speechka-platform.ru/",
     "devDependencies": {
         "live-server": "^1.2.2"
     },
